@@ -1,0 +1,374 @@
+
+#main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+}
+
+
+#main {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black; 
+  display: flex;
+  align-items: center;
+}
+
+#main div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+#main div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+
+#main div {
+  flex: 1;
+}
+
+#myBlueDiv {
+  align-self: center;
+}
+
+
+
+
+
+/*No all property*/
+{
+  font-size: small;
+  color: blue;
+}
+
+#ex1 {
+  background-color: yellow;
+  color: red;
+}
+
+#ex2 {
+  background-color: yellow;
+  color: red;
+  all: inherit;
+}
+
+#ex3 {
+  background-color: yellow;
+  color: red;
+  all: initial;
+}
+
+#ex4 {
+  background-color: yellow;
+  color: red;
+  all: unset;
+}
+
+
+
+
+
+/*The animation Property*/
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+
+
+
+
+
+/*The backdrop-filter Property*/
+.background {
+  background: lightblue url(klematis.jpg) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+
+.transbox {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/*The backface-visibility Property*/
+div {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  transform: rotateY(360deg);
+}
+
+
+#div1 {
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+#div2 {
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: visible;
+}
+
+
+/*The background Property*/
+body { 
+  background: lightblue url("img_tree.gif") no-repeat fixed center; 
+}
+
+
+
+
+
+/*borders*/
+h1 {
+  border: 5px solid red;
+}
+
+
+
+
+h2 {
+  border: 4px dotted blue;
+}
+
+div {
+  border: double;
+}
+
+/*The caption-side Property*/
+{
+  caption-side: bottom;
+}
+
+#example2 {
+  caption-side: top;
+}
+
+
+
+
+
+/*The caret-color Property*/
+
+.example1 {
+  caret-color: red;
+}
+
+.example2 {
+  caret-color: transparent;
+}
+
+
+
+
+/*The font Property*/
+p.a {
+  font: 15px Arial, sans-serif;
+}
+
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+
+
+
+
+/*border-inline-width: 10px*/
+div {
+  background-color: lightgreen;
+  inline-size: 70%;
+  padding: 30px 10px;
+  border-inline-start-style: solid;
+}
+
+#example1 {
+  border-inline-style: solid;
+  border-inline-width: 10px;
+}
+
+#example2 {
+  border-inline-style: solid;
+  border-inline-width: thin thick;
+}
+
+
+
+
+
+/*border-spacing: 15px*/
+table, td, th {
+  border: 1px solid black;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+#table2 {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+}
+
+
+
+
+
+
+/*The display Property*/
+p {color: red;}
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+
+
+
+
+
+
+/*The float Property*/
+img {
+  float: right;
+}
+
+.village{
+
+	width:170px;
+	height:170px;
+	margin-left:15px;"
+}
+
+
+
+
+
+
+/*The box-shadow Property*/
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+#example3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+
+
+
+
+
+
+/*The justify-content Property*/
+#main {
+  width: 400px;
+  height: 100px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: center;
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+}
+
+
+
+
+
+
+/*justify-items: end*/
+#container {
+  width: 50%;
+  aspect-ratio: 2/1;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+#container > div {
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 50%;
+}
+
+.red {
+  background-color: coral;
+  width: 40%;
+}
+
+.green {
+  background-color: lightgreen;
+  width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+

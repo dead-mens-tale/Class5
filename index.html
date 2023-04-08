@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>External CSS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<h1>The accent-color Property</h1>
+
+		<h3>Accent color for checkboxes:</h3>
+
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+		<label for="vehicle1"> I have a bike</label><br>
+		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
+		<label for="vehicle2"> I have a car</label><br><br>
+
+		<h3>Accent color for radiobuttons:</h3>
+
+		<input type="radio" id="html" name="fav_language" value="HTML">
+		<label for="html">HTML</label><br>
+		<input type="radio" id="css" name="fav_language" value="CSS" checked>
+		<label for="css">CSS</label><br>
+
+		<h3>Accent color for a range field:</h3>
+
+		<label for="vol">Volume:</label>
+		<input type="range" id="vol" name="vol" min="0" max="50">
+
+		<h3>Accent color for a progress element:</h3>
+
+		<label for="file">Downloading progress:</label>
+		<progress id="file" value="72" max="100"> 72% </progress>
+
+	<!-- notes -->
+
+		<h1>The align-content Property</h1>
+
+			<div id="main">
+		  	<div style="background-color:coral;"></div>
+		 	 <div style="background-color:lightblue;"></div>
+		  	<div style="background-color:pink;"></div>
+			</div>
+
+
+		<h2>align-items: center</h2>
+
+			<div id="main">
+		 	 <div style="background-color:coral;min-height:30px;">ORANGE</div>
+		 	 <div style="background-color:lightblue;min-height:50px;">GREY</div>  
+		 	 <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+			</div>
+
+		<div id="main">
+	  	<div style="background-color:coral;">ORANGE</div>
+	 	 <div style="background-color:lightblue;" id="myBlueDiv">BLUE</div> 
+
+	  	<div style="background-color:lightgreen;">Green div with more content.</div>
+		</div>
+
+
+		<h1>No all property:</h1>
+
+		<div id="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+		<p>all: inherit:</p>
+		<div id="ex2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+		<p>all: initial:</p>
+		<div id="ex3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+		<p>all: unset:</p>
+		<div id="ex4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+
+		<h1>The animation Property</h1>
+
+		<div>
+			<p>Move an element from 0px to 200px left. The animation lasts for 5 seconds. It then starts over again, and go on forever (infinite).</p>
+		</div>
+
+
+		<h1>The backdrop-filter Property</h1>
+
+		<div class="background">
+		  <div class="transbox">
+		    <p>backdrop-filter: blur(5px)</p>
+		  </div>
+		</div>
+
+		<!-- notes -->
+
+
+		<h1>The backface-visibility Property</h1>
+
+		<p>This example shows the back face of two div elements.</p>
+
+
+		<div id="div1">DIV 1</div>
+		<div id="div2">DIV 2</div>
+
+		<!-- notes -->
+
+		<h1>The background Property</h1>
+
+		<p>The Background color has been changed into Lightblue instead of being white</p>
+
+			<!-- border -->
+
+		<h1>A heading with a solid red border</h1>
+		<h2>A heading with a dotted blue border</h2>
+		<div>A div element with a double border.</div>
+
+			<!-- notes -->
+
+		<h1>The caption-side Property</h1>
+
+		<p>The caption-side property specifies the placement of a table caption:</p>
+
+		<h2>caption-side: bottom:</h2>
+
+			<table id="example1" border="1">
+			<caption>Table 1.1 Customers</caption>
+				<tr>
+					<th>Company</th>
+					<th>Contact</th>
+					<th>Country</th>
+				</tr>
+
+				<tr>
+					<td>Alfreds Futterkiste</td>
+					<td>Maria Anders</td>
+					<td>Germany</td>
+				</tr>
+
+				<tr>
+					<td>Berglunds snabb</td>
+					<td>Christina Berglund</td>
+					<td>Sweden</td>
+				</tr>
+
+				<tr>
+					<td>Centro comercial Moctezuma</td>
+					<td>Francisco Chang</td>
+					<td>Mexico</td>
+				</tr>
+
+				<tr>
+					<td>Ernst Handel</td>
+					<td>Roland Mendel</td>
+					<td>Austria</td>
+				</tr>
+			</table>
+
+			<h2>caption-side: top (default):</h2>
+
+			<table id="example2" border="1">
+			<caption>Table 1.1 Customers</caption>
+				<tr>
+				  <th>Company</th>
+				  <th>Contact</th>
+				  <th>Country</th>
+				</tr>
+				<tr>
+				  <td>Alfreds Futterkiste</td>
+				  <td>Maria Anders</td>
+				  <td>Germany</td>
+				</tr>
+				<tr>
+				  <td>Berglunds snabb</td>
+				  <td>Christina Berglund</td>
+				  <td>Sweden</td>
+				</tr>
+				<tr>
+				  <td>Centro comercial Moctezuma</td>
+				  <td>Francisco Chang</td>
+				  <td>Mexico</td>
+				</tr>
+				<tr>
+				  <td>Ernst Handel</td>
+				  <td>Roland Mendel</td>
+				  <td>Austria</td>
+				</tr>
+			</table>
+
+
+		<!-- notes -->
+		<h1>The caret-color Property</h1>
+		<input value="Default caret color"><br><br>
+		<input class="example1" value="Custom caret color"><br><br>
+		<input class="example2" value="Transparent caret color">
+		<p contenteditable class="example1">This paragraph can be edited. Its caret has a custom color as well.</p>	
+
+		<!-- notes -->
+		<h1>The font Property</h1>
+
+		<p class="a">This is a paragraph. The font size is set to 15 pixels, and the font family is Arial.</p>
+
+		<p class="b">This is a paragraph. The font is set to italic and bold, with small-caps (all lowercase letters are converted to uppercase). The font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
+
+		<!-- notes -->
+
+		<h2>border-inline-width: 10px:</h2>
+		<div id="example1">
+		  <p>The border-inline-width property defines the width of the border in the start and end in the inline direction.</p>
+		</div>
+
+		<h2>border-inline-width: thin thick:</h2>
+		<div id="example2">
+		  <p>If two values are set; the first one is for the start in the inline direction, and the second one is for the end in the inline direction.</p>
+		</div>
+
+		<!-- notes -->
+
+
+		<h2>border-spacing: 15px:</h2>
+			<p>When using "border-collapse: separate", the border-spacing property can be used to set the space between the cells:</p>
+			<table id="table1">
+			  <tr>
+			    <th>Firstname</th>
+			    <th>Lastname</th>
+			  </tr>
+			  <tr>
+			    <td>Peter</td>
+			    <td>Griffin</td>
+			  </tr>
+			  <tr>
+			    <td>Lois</td>
+			    <td>Griffin</td>
+			  </tr>
+			</table>
+
+			<h2>border-spacing: 15px 50px:</h2>
+			<p>Using two values (the first sets the horizontal spacing and the second sets the vertical spacing):</p>
+			<table id="table2">
+			  <tr>
+			    <th>Firstname</th>
+			    <th>Lastname</th>
+			  </tr>
+			  <tr>
+			    <td>Peter</td>
+			    <td>Griffin</td>
+			  </tr>
+			  <tr>
+			    <td>Lois</td>
+			    <td>Griffin</td>
+			  </tr>
+			</table>
+
+			<!-- notes -->
+
+		<h1>The display Property</h1>
+
+		<h2>display: none:</h2>
+
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+			</div>
+
+			<h2>display: inline:</h2>
+
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+			</div>
+
+			<h2>display: block:</h2>
+
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+			</div>
+
+			<h2>display: inline-block:</h2>
+
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+			</div>
+
+		<h1>The float Property</h1>
+
+		<p>In this example, the image will float to the right in the text, and the text in the paragraph will wrap around the image.</p>
+
+		<p><img class="village" src="img/village.jpg" alt="village">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+		</p>
+
+		<!-- The box-shadow Property -->
+
+		<h1>The box-shadow Property</h1>
+		<p>The box-shadow property defines the shadow of an element:</p>
+			<h2>box-shadow: 5px 10px:</h2>
+			<div id="example1">
+			  <p>A div element with a shadow. The first value is the horizontal offset and the second value is the vertical offset. The shadow color will be inherited from the text color.</p>
+			</div>
+
+			<h2>box-shadow: 5px 10px #888888:</h2>
+			<div id="example2">
+			  <p>You can also define the color of the shadow. Here the shadow color is grey.</p>
+			</div>
+
+			<h2>box-shadow: 5px 10px red:</h2>
+			<div id="example3">
+			  <p>A red shadow.</p>
+			</div>
+
+
+		<!-- The justify-content Property -->
+
+		<h1>The justify-content Property</h1>
+
+		<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+
+		<div id="main">
+		  <div style="background-color:coral;">1</div>
+		  <div style="background-color:lightblue;">2</div>
+		  <div style="background-color:pink;">3</div>
+		</div>
+ 
+ 	 <!-- justify-items: end -->
+
+ 	 	<h2>justify-items: end</h2>
+
+		<div id="container">
+		  <div class="red">RED</div>
+		  <div class="blue">GREY</div>  
+
+		  <div class="green">GREEN</div>
+		  <div class="red">RED</div>
+		</div>
+
+</body>
+</html>

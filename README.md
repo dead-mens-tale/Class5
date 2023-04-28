@@ -1,4 +1,4 @@
 # Class5
 
 live preview
-https://dead-mens-tale.github.io/Class5/
+https://rayadkhan.github.io/Class5/
